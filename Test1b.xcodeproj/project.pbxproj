@@ -21,6 +21,12 @@
 		63A5611218BEEAF2000C9B76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A560F418BEEAF2000C9B76 /* UIKit.framework */; };
 		63A5611A18BEEAF2000C9B76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63A5611818BEEAF2000C9B76 /* InfoPlist.strings */; };
 		63A5611C18BEEAF2000C9B76 /* Test1bTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5611B18BEEAF2000C9B76 /* Test1bTests.m */; };
+		63A5612718BEEBA5000C9B76 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5612618BEEBA5000C9B76 /* Card.m */; };
+		63A5612A18BEEBB3000C9B76 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5612918BEEBB3000C9B76 /* Deck.m */; };
+		63A5612D18BEEBC9000C9B76 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5612C18BEEBC9000C9B76 /* PlayingCard.m */; };
+		63A5613018BEEBFF000C9B76 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5612F18BEEBFF000C9B76 /* PlayingCardDeck.m */; };
+		63A5613318BEEC23000C9B76 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A5613218BEEC23000C9B76 /* CardMatchingGame.m */; };
+		63E20BE818BF9D5600D1AE9D /* muhback.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E20BE718BF9D5600D1AE9D /* muhback.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,17 @@
 		63A5611718BEEAF2000C9B76 /* Test1bTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test1bTests-Info.plist"; sourceTree = "<group>"; };
 		63A5611918BEEAF2000C9B76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63A5611B18BEEAF2000C9B76 /* Test1bTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1bTests.m; sourceTree = "<group>"; };
+		63A5612518BEEBA5000C9B76 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		63A5612618BEEBA5000C9B76 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		63A5612818BEEBB3000C9B76 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		63A5612918BEEBB3000C9B76 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		63A5612B18BEEBC9000C9B76 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		63A5612C18BEEBC9000C9B76 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		63A5612E18BEEBFF000C9B76 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		63A5612F18BEEBFF000C9B76 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		63A5613118BEEC23000C9B76 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardMatchingGame.h; sourceTree = "<group>"; };
+		63A5613218BEEC23000C9B76 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardMatchingGame.m; sourceTree = "<group>"; };
+		63E20BE718BF9D5600D1AE9D /* muhback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = muhback.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +129,20 @@
 		63A560F618BEEAF2000C9B76 /* Test1b */ = {
 			isa = PBXGroup;
 			children = (
+				63E20BE718BF9D5600D1AE9D /* muhback.png */,
 				63A560FF18BEEAF2000C9B76 /* Test1bAppDelegate.h */,
 				63A5610018BEEAF2000C9B76 /* Test1bAppDelegate.m */,
 				63A5610218BEEAF2000C9B76 /* Main.storyboard */,
+				63A5612518BEEBA5000C9B76 /* Card.h */,
+				63A5612618BEEBA5000C9B76 /* Card.m */,
+				63A5612818BEEBB3000C9B76 /* Deck.h */,
+				63A5612918BEEBB3000C9B76 /* Deck.m */,
+				63A5612B18BEEBC9000C9B76 /* PlayingCard.h */,
+				63A5612C18BEEBC9000C9B76 /* PlayingCard.m */,
+				63A5613118BEEC23000C9B76 /* CardMatchingGame.h */,
+				63A5613218BEEC23000C9B76 /* CardMatchingGame.m */,
+				63A5612F18BEEBFF000C9B76 /* PlayingCardDeck.m */,
+				63A5612E18BEEBFF000C9B76 /* PlayingCardDeck.h */,
 				63A5610518BEEAF2000C9B76 /* Test1bViewController.h */,
 				63A5610618BEEAF2000C9B76 /* Test1bViewController.m */,
 				63A5610818BEEAF2000C9B76 /* Images.xcassets */,
@@ -230,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A5610918BEEAF2000C9B76 /* Images.xcassets in Resources */,
+				63E20BE818BF9D5600D1AE9D /* muhback.png in Resources */,
 				63A560FB18BEEAF2000C9B76 /* InfoPlist.strings in Resources */,
 				63A5610418BEEAF2000C9B76 /* Main.storyboard in Resources */,
 			);
@@ -250,9 +279,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A5612D18BEEBC9000C9B76 /* PlayingCard.m in Sources */,
+				63A5612A18BEEBB3000C9B76 /* Deck.m in Sources */,
 				63A560FD18BEEAF2000C9B76 /* main.m in Sources */,
 				63A5610718BEEAF2000C9B76 /* Test1bViewController.m in Sources */,
+				63A5613318BEEC23000C9B76 /* CardMatchingGame.m in Sources */,
+				63A5613018BEEBFF000C9B76 /* PlayingCardDeck.m in Sources */,
 				63A5610118BEEAF2000C9B76 /* Test1bAppDelegate.m in Sources */,
+				63A5612718BEEBA5000C9B76 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +495,7 @@
 				63A5612118BEEAF2000C9B76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A5612218BEEAF2000C9B76 /* Build configuration list for PBXNativeTarget "Test1bTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +504,7 @@
 				63A5612418BEEAF2000C9B76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
