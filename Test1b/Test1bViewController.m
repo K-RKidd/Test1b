@@ -51,7 +51,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-///Implement the matching function in card by getting two card and then using the cardmatchinggame function choosecard at index to compare the two cards and if they match disable them if they dont "flip" them back over adding in to add to score if match and to subtract if no match
 
  // All the changing methods for the cards///////////
 
@@ -60,13 +59,13 @@
             if (change ==1){
                 change = 0;
                 Card *aCard = [_game chooseCardAtIndex:[self.cardsOnView indexOfObject:sender]];
-                [self.button setTitle:aCard.contentsOfCard forState:UIControlStateNormal];
-                [self.button setBackgroundImage:nil forState:UIControlStateSelected];
-                ///Add score to -1 when flipping a card 
+                [sender setTitle:aCard.contentsOfCard forState:UIControlStateNormal];
+                [sender setBackgroundImage:nil forState:UIControlStateNormal];
+                [sender setBackgroundColor:[UIColor whiteColor]];
                 
         }  else {
             change =1;
-            [self.button setTitle:nil forState:UIControlStateNormal];
+            [sender setTitle:nil forState:UIControlStateNormal];
     }}
    
 

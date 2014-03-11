@@ -15,6 +15,7 @@
 
 -(void) setSuit:(NSString *)suit
 {
+    [super setSuit:suit];
     if ([[PlayingCard vaildSuits] containsObject:suit]){
         _suit = suit;}
 }
@@ -32,6 +33,7 @@
 
 -(void) setRank:(NSUInteger)rank
 {
+    [super setRank:rank];
     if (rank <= [PlayingCard maxRank]){
         _rank = rank;
     }

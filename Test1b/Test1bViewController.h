@@ -19,8 +19,6 @@
 -(IBAction)change:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *label;
 
-
-@property (nonatomic) UIButton *button;
 @property (nonatomic) CardMatchingGame *game;
 @property (nonatomic) Deck *deck;
 

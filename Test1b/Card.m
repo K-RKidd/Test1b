@@ -8,6 +8,7 @@
 
 #import "Card.h"
 #import "Deck.h"
+#import "PlayingCard.h"
 
 
 
@@ -15,9 +16,11 @@
 @implementation Card
 
 -(NSString *)contentsOfCard {
-    NSString *show = (@" %d %@",_rank, _suit);
+
+    NSString *show = [NSString stringWithFormat:@ "%d %@", _rank, _suit ];
     return show;
 }
+                    
 
 -(int) match:(NSArray *)cards
 {
@@ -44,5 +47,6 @@
     }else
     {return 1;}
 }
+
 
 @end

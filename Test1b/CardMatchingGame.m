@@ -33,8 +33,8 @@
 }
 
 -(Card *) chooseCardAtIndex:(NSUInteger)index{
-    Card *new = [self.cards objectAtIndex:index];
-    return new;
+    Card *aCard = [self.cards objectAtIndex:index];
+    return aCard;
     
 }
 
