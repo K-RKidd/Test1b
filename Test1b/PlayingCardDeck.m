@@ -15,12 +15,13 @@
 -(id) init
 {
     self = [super init];
+    
     if (self){
         for (NSString *suit in [PlayingCard vaildSuits]) {
             for (NSUInteger i =1; i<[PlayingCard maxRank]; i++){
                 PlayingCard *card = [[PlayingCard alloc]init];
-                card.rank = i;
-                card.suit = suit;
+                [card setRank:i ];
+                [card setSuit:suit];
                 [self addCard:card];
             }
             
