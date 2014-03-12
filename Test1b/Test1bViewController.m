@@ -34,8 +34,8 @@
 {
     self = [super init];
     if (self){
-    _deck = [[Deck alloc] init];
-    _game = [[CardMatchingGame alloc]initWithCardCount:16 Deck:_deck];
+    _pcd = [[PlayingCardDeck alloc] init];
+    _game = [[CardMatchingGame alloc]initWithCardCount:16 Deck:_pcd];
     
        
     

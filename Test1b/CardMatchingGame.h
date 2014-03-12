@@ -16,7 +16,7 @@
 @property (nonatomic,readonly) NSInteger *score;
 
 -(Card *) chooseCardAtIndex: (NSUInteger)index;
--(id) initWithCardCount:(NSUInteger)count Deck:(Deck *)deck;
+-(id) initWithCardCount:(NSUInteger)count Deck:(PlayingCardDeck *)deck;
 
 
 @end

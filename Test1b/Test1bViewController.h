@@ -20,7 +20,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *label;
 
 @property (nonatomic) CardMatchingGame *game;
-@property (nonatomic) Deck *deck;
+@property (nonatomic) PlayingCardDeck *pcd;
 
 
 @end
