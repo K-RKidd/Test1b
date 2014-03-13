@@ -24,7 +24,11 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
    ///update this score then to display the score of the game
-    [self.label setText:@"Score:"];
+    NSUInteger score = 0;
+    [self.label setText:[NSString stringWithFormat:@ "Score: %d ", score]];
+    
+    _deck = [[PlayingCardDeck alloc]init];
+    _game = [[CardMatchingGame alloc]initWithCardCount:16 Deck:_deck];
     
     
     
@@ -34,8 +38,6 @@
 {
     self = [super init];
     if (self){
-    _pcd = [[PlayingCardDeck alloc] init];
-    _game = [[CardMatchingGame alloc]initWithCardCount:16 Deck:_pcd];
     
        
     
